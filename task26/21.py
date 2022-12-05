@@ -1,0 +1,10 @@
+f = open('26-k1.txt')
+n, k = map(int, f.readline().split())
+data = sorted(map(int, f.readlines()))[::-1]
+print(n, k)
+print(data)
+print(data[k])
+print(sum(data[:k]) * 0.2)
+print(data[k:-k])
+print(data[:k] + data[-k:])
+print(len(data))
