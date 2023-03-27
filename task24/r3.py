@@ -7,7 +7,7 @@ for s in line:
         cur_len += 1
         if mx_len < cur_len:
             mx_len = cur_len
-    elif s == 'E':
+    elif s == temp[0]:
         cur_len = 1
     else:
         cur_len = 0
